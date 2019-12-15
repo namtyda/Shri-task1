@@ -1,7 +1,6 @@
 .grid {
   display: grid;
-  align-items: stretch;
-
+  
   &_m-columns_10 {
     grid-template-columns: repeat(10, 1fr);
   }
@@ -39,8 +38,7 @@
 
 .grid__fraction {
   display: grid;
-  align-items: stretch;
-
+  align-items: flex-start;
   &_m-col_2 {
     grid-column: span 2;
   }
