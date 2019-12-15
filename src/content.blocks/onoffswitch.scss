@@ -1,0 +1,15 @@
+.onoffswitch {
+  width: 97px;
+  height: 32px;
+  border: solid 2px var(--bg-color-border);
+  padding: 2px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+
+  &__button {
+    width: 24px;
+    height: 24px;
+    background-color: var(--bg-color-border);
+  }
+}
