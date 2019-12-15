@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bem-xjst": "^8.9.6",
+    "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.13.0"
