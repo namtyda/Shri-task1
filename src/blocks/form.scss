@@ -9,7 +9,6 @@
 }
 
 .form__item {
-
   &_border_bottom:not(:last-child) {
     border-bottom: solid 3px var(--bg-color-border);
   }
