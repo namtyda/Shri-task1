@@ -1,4 +1,6 @@
-(() => {
+window.addEventListener('load', () => {
+
+
     document.body.addEventListener('click', e => {
         if (e.target.classList.contains('onoffswitch') || e.target.classList.contains('onoffswitch__button')) {
             const themedItems = document.querySelectorAll('.theme_color_project-default, .theme_color_project-inverse');
@@ -24,4 +26,5 @@
             }
         }
     });
-})();
+
+});

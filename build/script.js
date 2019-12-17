@@ -1,5 +1,7 @@
-(function () {
-    document.body.addEventListener('click', function (e) {
+window.addEventListener('load', () => {
+
+
+    document.body.addEventListener('click', e => {
         if (e.target.classList.contains('onoffswitch') || e.target.classList.contains('onoffswitch__button')) {
             const themedItems = document.querySelectorAll('.theme_color_project-default, .theme_color_project-inverse');
             themedItems.forEach((themedItem) => {
@@ -14,7 +16,7 @@
         }
     });
 
-    document.body.addEventListener('click', function (e) {
+    document.body.addEventListener('click', e => {
         const accordionShort = e.target.closest('.e-accordion__short');
         if (accordionShort && accordionShort.parentElement) {
 
@@ -24,4 +26,5 @@
             }
         }
     });
-})();
+
+});
